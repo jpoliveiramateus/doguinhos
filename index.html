@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css"
+    />
+    <title>Doguinho's</title>
+    <link rel="icon" type="image/png" href="./img/veterinario.png">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#menu">
+    <div  class="container">
+      <header
+        class="sticky-top bg-light d-flex flex-wrap justify-content-center py-3 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <span class="text-primary fs-4 fw-bold"
+            ><i class="mdi mdi-dog"></i> Doguinho's</span
+          >
+        </a>
+
+        <ul id="menu" class="nav nav-pills justify-content-center">
+          <li class="nav-item">
+            <a href="#topo" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <!-- <li class="nav-item"><a href="#topo" class="nav-link">Home</a></li> -->
+          <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+          <div class="form-check form-switch ms-5 mt-2 me-5">
+            <label id="icone-toggle" class="form-check-label ms-2" for="lightSwitch">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars" viewBox="0 0 16 16">
+                <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+                <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+                </svg>
+            </label>
+            <input class="form-check-input" type="checkbox" id="lightSwitch" />
+          </div>
+        </ul>
+      </header>
+
+      <section id="topo" class="mb-2">
+        <div class="row text-center text-md-start">
+          <div class="col-md-6 mt-3">
+            <h2 class="mt-5 fs-5">Aqui o seu amigo é tratado com carinho</h2>
+            <h1 class="display-2 fw-bold">Clínica Veterinária</h1>
+            <p class="mt-4 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              id quos facilis fugit rem, beatae dignissimos molestias officiis
+              mollitia blanditiis corrupti sed nisi. Excepturi, voluptates ut
+              perspiciatis maxime non similique?
+            </p>
+            <a href="#" class="mt-5 w-50 p-4 fw-bold btn btn-primary"
+              >Agendar Consulta <i class="mdi mdi-arrow-right-thick"></i
+            ></a>
+          </div>
+          <div class="col-md-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_erya171l.json"
+              background="transparent"
+              speed="1"
+              style="max-width: 70%;"
+              class="m-0 m-auto float-none float-md-end"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="text-center py-5 my-5">
+        <div class="row pt-5 mt-2">
+          <div class="col-12">
+            <h2 class="display-5 fw-bold">Serviços Prestados</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 mt-5">
+            <img class="rounded-circle shadow border p-5" src="./img/vacinado.png" alt="vacina">
+    
+            <h2 class="mt-3">Vacinação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facere sapiente quaerat quia corrupti sequi ipsum dolor sit amet.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 mt-5">
+            <img class="rounded-circle shadow border p-5" src="./img/veterinario.png" alt="veterinario">
+    
+            <h2 class="mt-3">Emergências</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facere sapiente quaerat quia corrupti sequi ipsum dolor sit amet.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 mt-5">
+            <img class="rounded-circle shadow border p-5" src="./img/dog.png" alt="dog">
+    
+            <h2 class="mt-3">Raio-X</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, facere sapiente quaerat quia corrupti sequi ipsum dolor sit amet.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+      </section>
+
+      <section id="precos" class="pt-3">
+        <div class="pricing-header pt-5 mt-5 text-center">
+          <h2 class="display-5 fw-bold">Preços</h1>
+          <p class="fs-5 mb-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Cirurgias</h4>
+              </div>
+              <div class="card-body bg-light">
+                <h1 class="card-title pricing-card-title">R$ 100,00<small class="text-muted fw-light">/m</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Consectetur adipisicing</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Internação</h4>
+              </div>
+              <div class="card-body bg-light">
+                <h1 class="card-title pricing-card-title">R$ 100,00<small class="text-muted fw-light">/m</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Consectetur adipisicing</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Consulta</h4>
+              </div>
+              <div class="card-body bg-light">
+                <h1 class="card-title pricing-card-title">R$ 100,00<small class="text-muted fw-light">/m</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Consectetur adipisicing</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="py-5 my-5">
+        <div class="row pt-5 mt-5">
+          <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold">Perguntas Frequentes</h2>
+          </div>
+        </div>
+        <div class="row mt-3 mb-5">
+          <div class="col-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="text-primary accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-light text-dark">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="text-primary accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-light text-dark">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="text-primary accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-light text-dark">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="my-5 py-5">
+        <div class="row">
+          <div class="col-12 text-center mt-5 mb-3">
+            <h2 class="display-4 fw-bold">Contato</h2>
+          </div>
+        </div>
+        <div class="row align-items-md-stretch text-center">
+          <div class="col-md-6">
+            <div class="h-100 p-4 bg-light border rounded-3">
+              <h2>Fale Conosco</h2>
+              <p class="p-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nam repellendus maiores ducimus aspernatur illo recusandae commodi quae eligendi. Inventore facilis delectus repellat explicabo fugit numquam provident saepe aperiam quo.</p>
+              <p class="mt-4"><i class="mdi mdi-phone"></i> (00) 00000-0000</p>
+              <p><i class="mdi mdi-email"></i> email@provedor.com</p>
+              <button class="mt-4 w-75 p-3 btn btn-success" type="button"><i class="mdi mdi-whatsapp"></i> Chamar Whatsapp</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-4  bg-light border rounded-3">
+              <p>Rua do exemplo, 123, Centro - Cidade</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.954274605668!2d-43.21267588522968!3d-22.95191104525252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fd5984aa13f%3A0x9dc984d7019502de!2sCristo%20Redentor!5e0!3m2!1spt-BR!2sbr!4v1659459213070!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" class="m-0 m-auto" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+
+      <footer class="container mt-5">
+        <p class="float-end"><a href="#">Ir para topo</a></p>
+        <p>© 2017–2022 <i class="mdi mdi-dog"></i> Doguinho's - Clínica Veterinária</p>
+      </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/switch.js"></script>
+  </body>
+</html>
