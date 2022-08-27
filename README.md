@@ -12,4 +12,4 @@ Landing page criada com Bootstrap v5.2 - Clínica Veterinária
 
 ----
 
-desenvolido por: [João Pedro Oliveira](https://www.linkedin.com/in/jpoliveira7/) =)
+desenvolvido por: [João Pedro Oliveira](https://www.linkedin.com/in/jpoliveira7/) =)
